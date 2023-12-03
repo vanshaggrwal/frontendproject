@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #f4f4f4;
+    box-shadow: 0px 2px 4px rgba(35, 19, 19, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+#my{
+    font-size: 20px;
+    color: #0d5b88;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav a::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background-color: #c0392b;
+    margin :auto;
+    display: block;
+
+}
+nav a:hover::after{
+    width:100%;
+    transition: width 0.3s line;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+.team-member {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+
+
+footer {
+    margin-top: 6px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+   
+}

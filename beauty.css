@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f4;
+    box-shadow: 0px 2px 4px rgba(35, 19, 19, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav a::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background-color: #c0392b;
+    margin :auto;
+    display: block;
+
+}
+nav a:hover::after{
+    width:100%;
+    transition: width 0.3s line;
+}
+ 
+.beauty1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+}
+.beauty1:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.t1{
+    margin-top: 50px;
+}
+.v1{
+    margin-left: 120px;
+}
+.v2{
+    margin-left: 120px;
+}
+.v3{
+    margin-left: 120px;
+}
+.v4{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.v5{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.v6{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 6px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+   
+}
